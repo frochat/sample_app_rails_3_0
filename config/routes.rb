@@ -4,10 +4,6 @@ SampleApp::Application.routes.draw do
   match '/help', 		:to => 'pages#help'
   root :to => 'pages#home'
     
-  resources :microposts
-
-  resources :users
-
   get "pages/home"
   get "pages/contact"
   get "pages/about"
