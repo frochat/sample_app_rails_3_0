@@ -7,6 +7,7 @@ gem 'rails', '3.0.7'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag'
+gem 'will_paginate'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -34,6 +35,7 @@ gem 'gravatar_image_tag'
 group :development do
   gem 'rspec-rails'
   gem 'annotate-models'
+  gem 'faker'
 end
 
 group :test do
